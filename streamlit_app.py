@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 """
-# Welcome to Streamlit!
+# Welcome to Streamlit! Karol
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
@@ -13,7 +13,7 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-if st.button("Trigger Exception"):
+if st.button("Trigger Exception test"):
     raise Exception("This is an exception")
     
 num_points = st.slider("Number of points in spiral", 1, 10000, 1100)
